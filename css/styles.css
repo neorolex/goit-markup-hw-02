@@ -1,0 +1,200 @@
+/* колір акцента #4D5AE5 */
+/* колір параграфів (основний колір для body) #434455 */
+/* колір заголовків #2E2F42 */
+/* колір героя #FFFFFF */
+/* колір основного бекграунда #E5E5E5 */
+/* колір футера + бекграунда героя #2E2F42 */
+
+:root {
+  /* взято зі Style Guide */
+  --primaty-brand: #4d5ae5;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text);
+  background-color: #ffffff;
+  font-size: 16px;
+  /* line-height: 1.5; */
+  /* letter-spacing: 0.02em; */
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.logo-studio {
+  color: var(--dark);
+}
+
+.logo-studio-white {
+  color: var(--light);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--primaty-brand);
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+}
+
+.logo:hover,
+.logo:focus {
+  color: #404bbf;
+}
+
+/* .site-nav .link */
+
+.nav-link {
+  color: var(--dark);
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--primaty-brand);
+}
+
+.contacts
+.con-link {
+  text-decoration: none;
+  font-weight: 400;
+  color: var(--text);
+}
+
+.contacts 
+.con-link:hover,
+.contacts
+.con-link:focus {
+  color: var(--primaty-brand);
+}
+
+.contacts 
+.list,
+.nav-list,
+.team-members 
+.team-member,
+.examples 
+.list,
+.future-list 
+.list,
+.services 
+.list,
+.service-example 
+.list {
+  list-style: none;
+}
+
+/* full hero section */
+
+.hr {
+  background-color: var(--dark);
+}
+
+.hero-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+
+.hero-button {
+  color: #ffffff;
+  background-color: var(--primaty-brand);
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.04em;
+  align-items: center;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+.black-paragraph {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.section-title {
+  color: var(--dark);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
+
+.team {
+  background-color: var(--light);
+}
+
+.team-member {
+  background-color: #ffffff;
+}
+
+  /* PORTFOLIO PAGE */
+
+
+.services-button {
+  color: var(--primaty-brand);
+  background-color: var(--accent);
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.services-button:hover,
+.services-button:focus {
+  color: #ffffff;
+  background-color: var(--primaty-brand);
+}
+
+.secondary-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.team-member {
+  background-color: #ffffff;
+}
+
+footer {
+  background-color: var(--dark);
+}
+
+.white-description {
+  color: var(--accent);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
